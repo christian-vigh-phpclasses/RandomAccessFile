@@ -54,7 +54,7 @@ The method returns the number of records effectively copied. This value can be l
 
 Note that :
 
-- The $to parameter can be specified past the end of file. In this case intermediate records will be created using the filler character.
+- The *$to* parameter can be specified past the end of file. In this case intermediate records will be created using the filler character.
 
 - Similarly, at some point during the copy, the current destination record can go past the end of file ; in this case, the new record(s) will be appended to the random file.
 
